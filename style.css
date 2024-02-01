@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*.main{
+    width: 100%;
+    height: 200px;
+    
+}*/
+
+@media (min-width: 320px) and (max-width: 375px){
+
+    .main{
+        width: 100%;
+        min-height: 535px;
+        background-color: purple;
+    }
+
+    .head{
+        width: 100%;
+        min-height: 300px;
+        background-color: blueviolet;
+        position: absolute;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    .main{
+        width: 100%;
+        min-height: 600px;
+        background-color: rgb(113, 155, 193);
+    }
+
+    .head{
+        width: 100%;
+        min-height: 250px;
+        background-color: rgb(68, 96, 157);
+        position: absolute;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+
+    .main{
+        width: 100%;
+        min-height: 535px;
+        background-color: rgb(103, 175, 125);
+    }
+
+    .head{
+        width: 100%;
+        min-height: 200px;
+        background-color: rgb(24, 84, 46);
+        position: absolute;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .main{
+        width: 769px;
+        margin: 0 auto;
+        min-height: 535px;
+        background-color: rgb(175, 104, 103);
+    }
+
+    .head{
+        width: 769px;
+        min-height: 150px;
+        background-color: rgb(150, 60, 53);
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1025px){
+
+    .main{
+        width: 1025px;
+        margin: 0 auto;
+        min-height: 535px;
+        background-color: rgb(135, 24, 22);
+    }
+
+    .head{
+        width: 1025px;
+        min-height: 100px;
+        background-color: rgb(198, 124, 118);
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
